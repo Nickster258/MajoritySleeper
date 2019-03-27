@@ -1,0 +1,4 @@
+author: Nickster258
+version: 1.0
+api-version: 1.13
+main: org.stonecipher.MajoritySleeper
