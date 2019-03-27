@@ -15,8 +15,8 @@ public class BeddedPlayer {
     }
 
     public void wakeUpPlayer() {
-        HumanEntity entity = (HumanEntity) player;
-        entity.wakeup(true);
+        if (player.isSleeping())
+            player.wakeup(true);
     }
 
     public Player getPlayer() {
